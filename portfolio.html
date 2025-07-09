@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenil Limbu | A web developer </title>
+    <meta name="description"
+        content="Explore the personal portfolio of Jenil Limbu, an aspiring web developer from Nepal. Discover his skills, projects, and contact information as he learns and grows in the world of web development.">
+
+    <meta name="keywords"
+        content="Jenil Limbu's personal portfolio showcasing web development skills, projects, and contact information. A passionate learner from Nepal currently exploring the world of web design.">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jenil Limbu | A full stack web developer" />
+    <meta property="og:site_name" content="Jenil Limbu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jenil.com.np/" />
+    <meta property="og:image"
+        content="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/luffy-gear-5-is-op.jpg?v=1733101087" />
+    <meta property="og:description" content="Jenil Limbu, a passionate and hardworking full stack web developer. " />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .container {
+            width: 86%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="border-b grid grid-cols-2 px-11 py-3 text-[white] bg-[black]">
+            <h1 class="text-xl font-bold">Portfolio</h1>
+            <ul class="hidden md:flex justify-between">
+                <ul class="flex gap-3 ">
+                    <li class="border rounded-md px-2"><a href="#Home">Home</a></li>
+                    <li class="border rounded-md px-3"><a href="#skills">Skills</a></li>
+                    <li class="border rounded-md px-1"><a href="#projects">Projects</a></li>
+                </ul>
+                <ul class="space-x-3">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
+                </ul>
+            </ul>
+        </nav>
+        <div class="text-right md:hidden">
+            <button class="text-white bg-black font-medium rounded-lg text-sm px-5 py-2.5 mb-2" type="button"
+                data-drawer-target="drawer-example" data-drawer-show="drawer-example" aria-controls="drawer-example">
+                Menu
+            </button>
+        </div>
+    </header>
+    <!-- drawer component -->
+    <div id="drawer-example"
+        class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80 dark:bg-gray-800"
+        tabindex="-1" aria-labelledby="drawer-label">
+        <h5 id="drawer-label"
+            class="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400">Menu</h5>
+        <button type="button" data-drawer-hide="drawer-example" aria-controls="drawer-example"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+        </button>
+        <div>
+            <img class="rounded-md"
+                src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/luffy-gear-5-is-op.jpg?v=1733101087" alt="">
+        </div>
+        <ul class="space-y-3 py-3">
+            <li class="md:border rounded-md px-2"><a class="border-b" href="#Home">Home</a></li>
+            <li class="md:border rounded-md px-3"><a class="border-b" href="#skills">Skills</a></li>
+            <li class="md:border rounded-md px-1"><a class="border-b" href="#projects">Projects</a></li>
+        </ul>
+        <ul class="space-x-3 py-3">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
+        </ul>
+    </div>
+
+    <main>
+        <section id="#Home" class="py-7">
+            <div class="container text-[white] bg-[black] p-5 rounded">
+                <h2 class="text-xl font-[500] px-7">Explore My Portfolio</h2>
+                <div class="md:flex gap-5 justify-between">
+                    <div>
+                        <p class="py-3">I am Jenil Limbu, a student of Code IT. I have given my SEE exam and now
+                            currently learning the course of web related to IT. I have completed some simple basic
+                            things and now I can successfully create my portfolio and other simple type of website. I am
+                            collecting more useful knowledge and information through the course. </p>
+                        <div class="flex justify-between">
+                            <p>Nepal, Sunsari</p>
+                            <p>Dharan-7</p>
+                        </div>
+                    </div>
+                    <img class="h-90 rounded "
+                        src="https://bluelock-anime-en.com/wp-content/themes/anime/assets/images/mv241103_sp.jpg"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="py-7">
+            <div class="container">
+                <h3 class="text-xl font-[500]">My Skills</h3>
+                <div class="py-7">
+                    <div>
+                        <p>Here are some of my skills:</p>
+                        <ul class="list-disc pl-5 mt-2 md:grid grid-cols-3">
+                            <li>Html</li>
+                            <li>Tailwind.css</li>
+                            <li>Flowbite</li>
+                            <li>Communication</li>
+                            <li>Decision making</li>
+                            <li>Team work</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="py-7">
+            <div class="container">
+                <h3 class="text-xl font-[500]">Projects</h3>
+                <div class="px-3">
+                    <p>Here are some of my projects: </p>
+                    <div class="md:grid grid-cols-3 gap-5">
+                        <div class="shadow-xl rounded-md p-5 container">
+                            <img class="border" src="https://codeit.com.np/storage/01JJRA9TM148GC7YW7VK2NT3Q0.avif"
+                                alt="">
+                            <p>Html file</p>
+                        </div>
+                        <div class="shadow-xl rounded-md p-5 container">
+                            <img class="border px-5 container"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeoSLhELF2o93WxjVr0JqocYDj7vuVHQYikQ&s"
+                                alt="">
+                            <p>Responsive website</p>
+                        </div>
+                        <div class="shadow-xl rounded-md p-5 container">
+                            <img class="border"
+                                src="https://static.resumegiants.com/wp-content/uploads/sites/25/2022/06/09105622/Professional-portfolio-736x414.webp"
+                                alt="">
+                            <p>Portfolio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container py-7">
+                <h4 class="text-xl font-[500]">Contact</h4>
+                <div class="shadow-xl rounded-md px-3 w-90">
+                    <p>For further knowledge, you can contact me through given means:</p>
+                    <ul class="list-disc pl-5 mt-2">
+                        <li class="font-[600]">email: yamdangwoyang@gmail.com</li>
+                        <li class="font-[600]">phone no: 9816394153</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="shadow-md bg-[black]  text-[white] md:px-150">
+            <p>Designed by: Jenil</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
